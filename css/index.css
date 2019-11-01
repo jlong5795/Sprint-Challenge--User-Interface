@@ -273,3 +273,23 @@ button {
     padding: 0 1%;
     padding-bottom: 20px;  
  }
+
+ /*Contact*/
+ .form {
+     display:flex;
+     justify-content: space-evenly;
+     padding-bottom: 25px;
+
+
+
+ }
+
+ .textForm {
+     width:65%;
+     display:inline-block;
+ }
+
+ .radio {
+     width:34%;
+     display:inline-block;
+ }
