@@ -8,7 +8,7 @@
     padding:0;
     margin:0;
     max-width: 100%;
-    border:1px gray solid !important;
+    /*border:1px gray solid !important;*/
 }
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -164,12 +164,13 @@ nav {
     width:80%;
     display:flex;
     justify-content:space-evenly;
-    align-items: center;
+    align-items:flex-end;
 }
 
 header nav a {
     color: black;
     text-decoration: none;
+    font-size:14px;
 }
 
 .jumbo {
@@ -222,20 +223,53 @@ header nav a {
     padding-bottom: 20px;  
  }
 
-.row {
+ .middle-content-about {
+    margin-bottom: 20px;
+}
+
+ .row {
     display:flex;
+    justify-content: space-evenly;
+    padding:2%;
 }
 
 .about-content {
     display:flex column;
+    border-bottom:1px black dashed;
+    width: 45%;
+    padding:1%;
+
 }
 
 button {
 	text-align:center;
 	text-decoration:none;
-	font-size:14px;
+	font-size:17px;
 	border:2px black solid;
     padding: 5px 40px; 
-    padding:8px 35px;
-	border-radius:5px;
+    padding:8px 26px;
+    border-radius:5px;
+    background-color:white;
 }
+
+.about-content div {
+    padding:15px 15px 15px 0;
+}
+
+.middle-header {
+    padding:10px 0 !important;
+}
+
+.bottom-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+    border:none;
+}
+
+.bottom-content .text-container-wide {
+    width: 95%;
+    padding: 0 1%;
+    padding-bottom: 20px;  
+ }
